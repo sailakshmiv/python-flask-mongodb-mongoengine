@@ -5,7 +5,7 @@ import datetime
 
 # Mongo DB instance
 # connect(app.config['MONGODB_SETTINGS'])
-connect("omprakashp_db", host="127.0.0.1", port=27017)
+connect("omprakashp_db", host="0.0.0.0", port=27017)
 
 class User(Document):
 	"""docstring for User"""
